@@ -1,0 +1,416 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*ここまでがリセットCSS　*/
+
+body {
+    color: #333;
+    font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳＰゴシック","MS PGothic",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+
+li{
+    list-style-type: none;
+}
+header{
+    padding-top:20px;
+    padding-bottom:20px;
+    position: absolute;
+    width: 100%;
+}
+
+.header-logo>img{
+    height: 20px;
+    width:auto;
+    display: block;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px;
+    position:relative;
+}
+
+.hamburger-toggle{
+    display: none;
+
+}
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-item{
+    margin-right: 45px;
+    text-align: center;
+}
+.header-list :last-child{
+    margin-right: 0;
+}
+.header-link span:first-child{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.header-link span:last-child{
+    font-size: 10px;
+    font-weight: 700;
+}
+.header-button{
+    border-radius: 38px;
+    background-color: #F79215;
+    color: white;
+    display: flex;
+    font-weight: 700;
+    font-size:12px;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    align-items: center;
+}
+.header-button:hover{
+    color: white;
+}
+.header-link{
+    display: block;
+}
+.hero-img{
+    display: none;
+}
+.hero{
+    padding-top: 100px;
+    padding-bottom:28px;
+    background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-container{
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-main{
+    margin-bottom: 70px;
+    width: fit-content;
+}
+.hero-title{
+    font-family:'Lato', sans-serif; 
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.hero-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.hero-images img{
+    height: auto;
+    margin-right: 8px;
+}
+.hero-images img:nth-child(2){
+    width:40%;
+}
+.hero-buttons{
+    display:flex;
+}
+.counseling-button{
+    width:306px;
+    height: 64px;
+    margin-right:15px;
+    border-radius: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F79215;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.counseling-button:hover{
+    color: white;
+}
+.document-button{
+    width: 176px;
+    height: 64px;
+    border:1px solid #e0e0e0;
+    border-radius: 38px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.hero-annotations,.hero-annotations a{
+    font-size: 12px;
+    color: #a2a2a4;
+    line-height: 18px;
+}
+.about-container{
+    background-color: #F79215;
+    padding: 44px 0;
+}
+.about{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+.about-video{
+    width:50%
+}
+.about-potepan{
+    margin-left: 30px;
+    width: 490px;
+}
+.about-potepan h2{
+    font-size:38px;
+    font-weight: 900;
+    color: white;
+    line-height: 54px;
+    margin-bottom: 10px;
+}
+.about-potepan h2>span{
+    font-family: 'Lato', sans-serif;
+}
+.about-potepan p{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.about-potepan a{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+}
+
+.about-potepan a>img{
+    display: block;
+}
+
+@media screen and (max-width:1024px){
+    
+    header{
+        background-color: #fff;
+        position: fixed;
+    }
+    .header-list{
+        display:none;
+    }
+    .hamburger-toggle{
+        width: 30px;
+        height: 21px;
+        display: block;
+        position: relative;
+    }
+
+    .hamburger-border{
+        display: block;
+        width: 100%;   
+        background-color: #333;
+        height: 3px;
+        border-radius: 10px;
+        position: absolute;
+        top:50%
+    }
+    .hamburger-border:first-child{
+        top: 0;
+    }
+    .hamburger-border:last-child{
+        top:100%;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .about-video{
+        margin-bottom: 16px;
+        width: 70%;
+
+    }
+    .about-potepan{
+        margin-left: 0px;
+        width: 75%;
+    }
+    @media screen and (max-width:767px){
+        header{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        main{
+            padding-top:52px;
+        }
+        .hero{
+            background-image: none;
+            padding-top: 0px;
+        }
+        
+        .hero-img{
+            display: block;
+            width: 100%;
+        }
+        .hero-container{
+            padding: 0px 0px;
+        }
+        .hero-main{
+            margin-top:-45vw;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .hero-title{
+            font-size:25px;
+            line-height: 36px;
+        }
+        .hero-images img{
+            width: 27.5%;
+        }
+        .hero-buttons{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .counseling-button{
+            margin-right: 0;
+            
+        }
+        .document-button{
+            display: none;
+        }
+        .about{
+            padding: 0 20px;
+        }
+        .about-video{
+            width: 100%;
+        }
+        .about-potepan {
+            width: auto;
+        }
+    }
+}
